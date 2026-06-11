@@ -22,7 +22,30 @@ O projeto conta com as seguintes funcionalidades:
 ♿ Botão de acessibilidade;
 🔠 Opção de aumentar e diminuir fonte;
 🌓 Modo de alt
-💻 Tecnologias Utilizadas
+💻 Tecnologias Utilizadas/* 8. Responsividade para telas maiores (Computadores e Tablets grandes) */
+@media screen and (min-width: 800px) {
+    
+    /* Faz o cabeçalho alinhar a lista em linha horizontal (em vez de empilhada) */
+    .cabecalho-lista {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* Aumenta o título principal nas telas grandes sem exagerar no tamanho */
+    .agro-titulo {
+        font-size: 3rem; /* Tamanho grande e elegante */
+    }
+
+    /* Aumenta um pouco o texto para melhorar a leitura em monitores */
+    .agro-texto-um, .agro-texto-dois {
+        font-size: 1.15rem;
+    }
+
+    /* Garante que as seções fiquem perfeitamente lado a lado */
+    .agro {
+        padding: 80px 40px;
+    }
+}
 O projeto foi desenvolvido utilizando apenas tecnologias básicas de front-end:
 HTML5
 CSS3
@@ -35,7 +58,30 @@ JavaScript
 ├── style.css
 ├── script.js
 ├── README.md
-├── img/
+├── img//* 8. Responsividade para telas maiores (Computadores e Tablets grandes) */
+@media screen and (min-width: 800px) {
+    
+    /* Faz o cabeçalho alinhar a lista em linha horizontal (em vez de empilhada) */
+    .cabecalho-lista {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* Aumenta o título principal nas telas grandes sem exagerar no tamanho */
+    .agro-titulo {
+        font-size: 3rem; /* Tamanho grande e elegante */
+    }
+
+    /* Aumenta um pouco o texto para melhorar a leitura em monitores */
+    .agro-texto-um, .agro-texto-dois {
+        font-size: 1.15rem;
+    }
+
+    /* Garante que as seções fiquem perfeitamente lado a lado */
+    .agro {
+        padding: 80px 40px;
+    }
+}
 │   ├── logo.png
 │   ├── Hero.png
 │   ├── Campo.png
